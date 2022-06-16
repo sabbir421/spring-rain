@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1.5fr 3.5fr 2fr;
+    padding: 10px;
+    
+}
+.main-item{
+   
+   
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.left{
+    background-color: rgb(6, 6, 210);
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+.title{
+    color: aliceblue;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+}
+li{
+    list-style-type:none;
+    color:aliceblue;
+    font-size: 20px;
+}
+.nav{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    
+}
+.nav>img{
+    height: 35px;
+    width: 35px;
+    border-radius: 20%;
+}
+
+
+/* middle part */
+
+ header>h5{
+     font-weight: 300;
+     text-align: start;
+ }
+ header>p{
+     text-align: start;
+     color: gray;
+     font-size: 15px;
+     font-weight: 200;
+ }
+ header>h3{
+     text-align: start;
+     font-weight: 300;
+     font-size: 25px;
+     margin: 10px 0px 10px 0px;
+     margin-left: 60px;
+ }
+ th{
+     color: gray;
+     font-size: 16px;
+ }
+ td{
+     color:gray;
+     font-size: 16px;
+     padding: 10px;
+     font-weight: 100;
+ }
+
+
+   
+.holiday{
+    display: flex;
+    flex-wrap: wrap;
+}
+.holiday>div>img{
+    width: 50px;
+    height: 50px;
+}
+.holidays-title{
+    text-align: start;
+    font-size: 16px;
+    margin: 5px 0px 0px 10px;
+}
+.holiday-number{
+    background-color: rgb(6, 80, 229);
+    padding: 5px 8px 5px 8px;
+    margin-left: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.holidays-sub-title{
+    font-size: 16px;
+    color: gray;
+    margin: 5px 0px 10px 10px;
+}
+.holiday-details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+.holiday-sheduile{
+    font-size: 16px;
+    color: gray;
+    text-align: start;
+    margin: 10px 0px 5px 5px;
+}
+.holiday-reason{
+    font-size: 25px;
+    color: rgb(132, 125, 125);
+    text-align: start;
+    margin:5px 0px 5px 5px ;
+}
+.venue{
+    font-size: 16px;
+    text-align: start;
+    margin: 5px 0px 0px 10px;
+}
+
+.event{
+    display: flex;
+    flex-wrap: wrap;
+}
+.event>div>img{
+    width: 50px;
+    height: 50px;
+}
+.event-title{
+    text-align: start;
+    font-size: 16px;
+    margin: 5px 0px 0px 10px;
+}
+.event-number{
+    background-color: rgb(213, 134, 8);
+    padding: 5px 8px 5px 8px;
+    color: white;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.event-sub-title{
+    font-size: 16px;
+    color: gray;
+    margin: 5px 0px 10px 10px;
+}
+
+.event-details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+.event-sheduile{
+    font-size: 16px;
+    color: gray;
+    text-align: start;
+    margin: 10px 0px 5px 5px;
+}
+.time{
+    margin-left: 80px;
+}
+.event-reason{
+    font-size: 16px;
+    color: rgb(83, 78, 78);
+    text-align: start;
+    margin:5px 0px 5px 5px ;
+}
+.venue{
+  color: gray;  
+}
+.hotel-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   gap: 5px;
+   margin:25px 15px;
+    
+}
+.hotel-img>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+   
+    
+}
